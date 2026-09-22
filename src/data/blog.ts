@@ -1,0 +1,101 @@
+import type { BlogContent } from "@/types/content";
+
+export const blogContent: BlogContent = {
+    featured: {
+        slug: 'the-art-of-hosting',
+        title: 'The Art of Hosting',
+        excerpt:
+            'From the moment your guests arrive to the final farewell, every touchpoint is an opportunity to create something extraordinary. Discover how our approach to event design goes beyond decoration.',
+        date: 'March 15, 2026',
+        category: 'Behind the Scenes',
+        readTime: '8 min read',
+        image: '/images/where-section-bg.png',
+        ctaLabel: 'Read the Full Story',
+        ctaHref: '/blogs',
+    },
+    categories: [
+        'Weddings',
+        'Design & Style',
+        'Culinary',
+        'Corporate',
+        'Behind the Scenes',
+        'Celebrations',
+        'Architecture',
+        'Inspiration',
+    ],
+    gridHeading: {
+        titleTop: 'The Journal',
+        titleBottom: 'Stories, insights & inspiration',
+    },
+    posts: [
+        {
+            slug: '5-trends-shaping-luxury-weddings-in-2026',
+            title: '5 Trends Shaping Luxury Weddings in 2026',
+            excerpt:
+                'From sustainability-focused celebrations to immersive guest experiences, here are the trends redefining how couples say "I do."',
+            date: 'Feb 28, 2026',
+            category: 'Weddings',
+            readTime: '5 min',
+            image: '/images/wedding.jpg',
+            layout: 'large',
+        },
+        {
+            slug: 'why-venue-architecture-matters',
+            title: 'Why Venue Architecture Matters',
+            excerpt: 'The space you choose tells a story before a single word is spoken.',
+            date: 'Feb 10, 2026',
+            category: 'Design',
+            readTime: '4 min',
+            image: '/images/where-it-all-started.png',
+            layout: 'small',
+        },
+        {
+            slug: 'crafting-menus-for-milestone-moments',
+            title: 'Crafting Menus for Milestone Moments',
+            excerpt:
+                'Our executive chef shares the philosophy behind seasonal menus that honor the occasion.',
+            date: 'Jan 22, 2026',
+            category: 'Culinary',
+            readTime: '6 min',
+            image: '/images/insta-sec-1.png',
+            layout: 'small',
+        },
+        {
+            slug: 'from-corporate-to-couture',
+            title: 'From Corporate to Couture: Hosting Brand Experiences',
+            excerpt:
+                'How The Reserve transforms into a canvas for brand storytelling — blending luxury hospitality with experiential marketing.',
+            date: 'Jan 5, 2026',
+            category: 'Corporate',
+            readTime: '7 min',
+            image: '/images/insta-sec-3.png',
+            layout: 'large',
+        },
+        {
+            slug: 'the-power-of-lighting-in-event-design',
+            title: 'The Power of Lighting in Event Design',
+            excerpt: 'Lighting sets the mood, guides attention, and transforms spaces.',
+            date: 'Dec 18, 2025',
+            category: 'Design',
+            readTime: '5 min',
+            image: '/images/where-we-are-today.png',
+            layout: 'small',
+        },
+        {
+            slug: 'celebrating-love-across-cultures',
+            title: 'Celebrating Love Across Cultures',
+            excerpt: 'Honoring diverse traditions, customs, and rituals at The Reserve.',
+            date: 'Dec 1, 2025',
+            category: 'Weddings',
+            readTime: '6 min',
+            image: '/images/insta-sec-2.png',
+            layout: 'small',
+        },
+    ],
+    newsletter: {
+        heading: 'Stay Inspired',
+        body: 'Subscribe to The Journal for stories, trends, and behind-the-scenes glimpses into the world of luxury events.',
+        placeholder: 'Your email address',
+        buttonLabel: 'Subscribe',
+    },
+};
