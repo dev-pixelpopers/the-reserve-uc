@@ -19,7 +19,7 @@ export default function ServicesHero({
             <div className="relative z-10 flex flex-col px-8 md:px-16 lg:px-25 gap-[20px] lg:gap-[50px]">
                 <Breadcrumb items={breadcrumbs} />
                 <div className="relative z-10 flex flex-col gap-5 lg:gap-6">
-                    <div className="flex flex-col sm:flex-row items-start sm:items-center gap-[14px] sm:gap-5">
+                    <div className="flex flex-row items-center gap-[14px] sm:gap-5">
                         <p className="whitespace-nowrap font-seasons text-[clamp(14px,1.8vw,26px)] leading-[1.2] font-bold uppercase text-[#FAF4ED]">
                             {eyebrow}
                         </p>

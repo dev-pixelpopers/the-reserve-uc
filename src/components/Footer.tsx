@@ -23,7 +23,7 @@ function Footer() {
                         <span className="font-midland text-[clamp(14px,1.17vw,18px)] leading-[clamp(25px,2.083vw,40px)] text-black transition-colors group-hover:text-[#B09983] whitespace-nowrap">About the Reserve</span>
                     </Link>
                     <hr className="border-[#B09983]" />
-                    <Link href="/our-portfolio" className="group block py-3 lg:py-5">
+                    <Link href="/coming-soon" className="group block py-3 lg:py-5">
                         <span className="font-midland text-[clamp(14px,1.17vw,18px)] leading-[clamp(25px,2.083vw,40px)] text-black transition-colors group-hover:text-[#B09983] whitespace-nowrap">Our Portfolio</span>
                     </Link>
                     <hr className="border-[#B09983] md:hidden" />

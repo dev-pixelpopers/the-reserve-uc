@@ -33,7 +33,7 @@ export default function PageHero({
     titleClassName = 'font-midland text-[25px] md:text-[clamp(30px,3.8vw,60px)] leading-[2] lg:leading-[100px] capitalize text-[#FAF1E1]',
     subtitleClassName = 'font-midland text-[clamp(28px,3.8vw,60px)] leading-[1.4] lg:leading-[80px] capitalize text-[#FAF1E1]',
     overlayClassName = 'absolute inset-0 bg-gradient-to-t from-[#202020] via-[#202020]/70 to-transparent',
-    ruleClassName = 'w-[120px] md:w-[300px] lg:w-[450px] text-white',
+    ruleClassName = 'w-[90px] md:w-[300px] lg:w-[450px] text-white',
 }: PageHeroProps) {
     const heroImageRef = useRef<HTMLDivElement>(null);
 

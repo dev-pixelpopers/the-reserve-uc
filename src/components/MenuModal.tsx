@@ -93,7 +93,7 @@ export default function FullScreenModal({ Popupopen = false, onClose }: Props) {
 								<span className={navLinkClass}>About the Reserve</span>
 							</Link>
 							<hr className="text-[#B09983]" />
-							<Link href="/our-portfolio" onClick={onClose} className="group block py-3 lg:py-5">
+							<Link href="/coming-soon" onClick={onClose} className="group block py-3 lg:py-5">
 								<span className={navLinkClass}>Our Portfolio</span>
 							</Link>
 						</div>

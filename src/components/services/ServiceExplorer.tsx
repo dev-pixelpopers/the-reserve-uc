@@ -104,14 +104,16 @@ export default function ServiceExplorer({ services }: ServiceExplorerProps) {
                             </p>
 
                             {service.longText && (
-                                <p className="font-seasons text-[clamp(16px,1.5vw,20px)] leading-[1.7] lg:leading-[38px] text-[#FAF4ED]">
-                                    {service.longText}
-                                </p>
+                                service.longText.map((text, i) => (
+                                    <p key={i} className="font-seasons text-[clamp(16px,1.5vw,20px)] leading-[1.7] lg:leading-[38px] text-[#FAF4ED]">
+                                        {text}
+                                    </p>
+                                ))
                             )}
 
                             <div className="mt-[20px] lg:mt-[30px] flex flex-col sm:flex-row items-start sm:items-center gap-5 lg:gap-6">
                                 <Link
-                                    href={service.href}
+                                    href="/contact-us"
                                     className="group inline-flex items-center gap-3 font-seasons text-[12px] lg:text-[14px] uppercase tracking-[0.25em] lg:tracking-[0.35em] text-cream/70 hover:text-cream transition-colors"
                                 >
                                     Inquire Now

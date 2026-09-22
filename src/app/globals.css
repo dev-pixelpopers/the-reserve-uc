@@ -90,6 +90,18 @@ body {
 }
 
 @media (max-width: 1440px) {
+  div.portfolio-sec>div:first-child>div:nth-child(3) {
+    align-items: center;
+  }
+
+  div.portfolio-sec>div:first-child>div:nth-child(3)>div:first-child {
+    padding-top: calc(var(--spacing) * 0);
+  }
+
+  div.portfolio-sec {
+    gap: 50px;
+  }
+
   h3.font-iconscript {
     font-size: 45px;
     line-height: 75px;
@@ -114,6 +126,14 @@ body {
 }
 
 @media (max-width: 1366px) {
+  .moh-sec>div:first-child>div {
+    height: 100px;
+  }
+
+  .moh-sec>div:first-child>img {
+    height: 580px;
+  }
+
   div.portfolio-sec>div:first-child>div:nth-child(3) {
     align-items: center;
   }

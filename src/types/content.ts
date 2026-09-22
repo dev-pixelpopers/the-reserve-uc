@@ -77,7 +77,7 @@ export interface ServiceCard {
     id: number;
     title: string;
     description: string;
-    longText?: string;
+    longText?: string[];
     image: string;
     href: string;
     ctaLabel: string;

@@ -27,9 +27,12 @@ export const servicesContent: ServicesContent = {
             id: 2,
             title: 'Corporate Events',
             description:
-                'Elevate your brand with a setting that speaks volumes. Sophistication that leaves a lasting impression.',
+                'Elevate your brand with a setting designed to make an impression. At The Reserve, refined architecture, sophisticated ambiance, and thoughtfully curated spaces create an elevated backdrop for meaningful experiences.',
             longText:
-                "From product launches to executive retreats, The Reserve becomes your brand's stage. Flexible spaces adapt to your vision — whether it's an intimate board dinner or a gala.",
+                [
+                    "From product launches and executive retreats to corporate dinners and gala celebrations, The Reserve becomes an extension of your brand and providing a distinctive setting where your vision takes center stage.",
+                    "Our flexible spaces can be tailored to complement your event, whether you're hosting an intimate executive gathering or a sophisticated large-scale celebration."
+                ],
             image: '/images/corporate-events.png',
             href: '/what-we-offer/corporate-events',
             ctaLabel: 'Explore Corporate & Brand',
@@ -38,8 +41,7 @@ export const servicesContent: ServicesContent = {
             id: 3,
             title: 'Special Occasions',
             description: "Mark life's greatest moments in a venue that matches their significance.",
-            longText:
-                'Birthdays, anniversaries, graduations — moments that deserve more than ordinary. Our spaces transform to match your milestone.',
+            longText: ['Birthdays, anniversaries, graduations — moments that deserve more than ordinary. Our spaces transform to match your milestone.'],
             image: '/images/special-occasions.png',
             href: '/what-we-offer/birthdays',
             ctaLabel: 'Plan a Milestone',

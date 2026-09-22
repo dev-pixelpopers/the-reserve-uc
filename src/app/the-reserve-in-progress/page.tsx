@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function TheReserveInProgressPage() {
     return (
-        <main className="bg-[#0e1111]">
+        <main>
             <ProgressHero {...reserveInProgressContent.hero} />
             <EpisodeGrid
                 heading={reserveInProgressContent.heading}
