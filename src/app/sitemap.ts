@@ -17,7 +17,7 @@ const routes: Route[] = [
     // { path: "/packages", changeFrequency: "monthly", priority: 0.8 },
     { path: "/our-portfolio", changeFrequency: "monthly", priority: 0.8 },
     { path: "/contact-us", changeFrequency: "yearly", priority: 0.8 },
-    { path: "/blogs", changeFrequency: "weekly", priority: 0.7 },
+    // { path: "/blogs", changeFrequency: "weekly", priority: 0.7 },
     { path: "/about-the-reserve", changeFrequency: "yearly", priority: 0.7 },
     { path: "/history-of-the-reserve", changeFrequency: "yearly", priority: 0.6 },
     { path: "/where-we-are-today", changeFrequency: "monthly", priority: 0.6 },
