@@ -8,6 +8,9 @@ export const metadata: Metadata = {
     title: "Our Portfolio",
     description:
         "Weddings, galas, milestones and private dinners — a look at the moments The Reserve has had the privilege to host.",
+    alternates: {
+        canonical: "/our-portfolio",
+    },
 };
 
 export default function OurPortfolioPage() {

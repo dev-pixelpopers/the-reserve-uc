@@ -7,6 +7,9 @@ export const metadata: Metadata = {
     title: "The Reserve in Progress",
     description:
         "From construction milestones to architectural achievements, follow the restoration of The Reserve episode by episode.",
+    alternates: {
+        canonical: "/the-reserve-in-progress",
+    },
 };
 
 export default function TheReserveInProgressPage() {

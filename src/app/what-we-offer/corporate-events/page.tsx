@@ -11,6 +11,9 @@ export const metadata: Metadata = {
     title: "Corporate Events",
     description:
         "Conferences, launches, executive summits and brand dinners — hosted with the precision of a boardroom and the polish of a black-tie gala.",
+    alternates: {
+        canonical: "/what-we-offer/corporate-events",
+    },
 };
 
 export default function CorporateEventsPage() {

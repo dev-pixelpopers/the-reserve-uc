@@ -9,6 +9,9 @@ export const metadata: Metadata = {
     title: "About The Reserve",
     description:
         "A historic 1925 landmark in Old Alvarado, restored and reimagined as an elegant event venue where history meets modern elegance.",
+    alternates: {
+        canonical: "/about-the-reserve",
+    },
 };
 
 export default function AboutPage() {

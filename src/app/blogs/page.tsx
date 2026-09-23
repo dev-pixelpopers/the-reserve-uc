@@ -9,6 +9,9 @@ export const metadata: Metadata = {
     title: "The Journal",
     description:
         "Stories, insights and inspiration from The Reserve — weddings, design, culinary and behind-the-scenes of luxury events.",
+    alternates: {
+        canonical: "/blogs",
+    },
 };
 
 export default function BlogsPage() {

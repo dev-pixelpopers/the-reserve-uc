@@ -8,6 +8,9 @@ export const metadata: Metadata = {
     title: "Curated Packages",
     description:
         "Three distinct tiers, each fully customizable — The Heritage, The Classic and The Reserve. Choose the foundation that fits your event.",
+    alternates: {
+        canonical: "/packages",
+    },
 };
 
 export default function PackagesPage() {

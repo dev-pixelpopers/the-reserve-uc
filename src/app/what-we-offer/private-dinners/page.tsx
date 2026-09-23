@@ -13,6 +13,9 @@ export const metadata: Metadata = {
     title: "Private Dinners",
     description:
         "A room of your own, a chef at your service, a sommelier who has already read the wine list for you — private dining at The Reserve.",
+    alternates: {
+        canonical: "/what-we-offer/private-dinners",
+    },
 };
 
 export default function PrivateDinnersPage() {

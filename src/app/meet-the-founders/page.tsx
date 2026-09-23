@@ -8,6 +8,9 @@ export const metadata: Metadata = {
     title: "Meet The Founders",
     description:
         "Moh and Farah Jaan — the family-led leadership behind The Reserve, uniting architectural discipline with financial stewardship.",
+    alternates: {
+        canonical: "/meet-the-founders",
+    },
 };
 
 export default function MeetTheFoundersPage() {

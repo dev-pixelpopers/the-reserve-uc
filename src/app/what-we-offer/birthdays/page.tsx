@@ -14,6 +14,9 @@ export const metadata: Metadata = {
     title: "Birthday Celebrations",
     description:
         "Sweet sixteens, landmark birthdays and golden anniversaries — milestones staged around the person being celebrated, not a template.",
+    alternates: {
+        canonical: "/what-we-offer/birthdays",
+    },
 };
 
 export default function BirthdaysPage() {

@@ -8,6 +8,9 @@ export const metadata: Metadata = {
     title: "History of The Reserve",
     description:
         "One hundred years in Old Alvarado — from the 1925 Bank of Alvarado to the restored event venue The Reserve is today.",
+    alternates: {
+        canonical: "/history-of-the-reserve",
+    },
 };
 
 export default function HistoryOfTheReservePage() {

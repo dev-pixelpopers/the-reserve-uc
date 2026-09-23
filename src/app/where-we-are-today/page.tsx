@@ -8,6 +8,9 @@ export const metadata: Metadata = {
     title: "Where We Are Today",
     description:
         "The restoration is complete and the doors are open. The Reserve today, honoring a century of history while writing its next chapter.",
+    alternates: {
+        canonical: "/where-we-are-today",
+    },
 };
 
 export default function WhereWeAreTodayPage() {

@@ -10,6 +10,9 @@ export const metadata: Metadata = {
     title: "Contact Us",
     description:
         "Tell us about your vision. Share your event details and the team at The Reserve will craft something extraordinary with you.",
+    alternates: {
+        canonical: "/contact-us",
+    },
 };
 
 export default function ContactUsPage() {

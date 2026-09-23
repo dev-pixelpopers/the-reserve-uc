@@ -12,6 +12,9 @@ export const metadata: Metadata = {
     title: "Weddings & Receptions",
     description:
         "From the first look to the last dance, your wedding at The Reserve is choreographed, not assembled — a day composed in four acts.",
+    alternates: {
+        canonical: "/what-we-offer/weddings-and-receptions",
+    },
 };
 
 export default function WeddingsAndReceptionsPage() {

@@ -8,6 +8,9 @@ export const metadata: Metadata = {
     title: "What We Offer",
     description:
         "Weddings and receptions, corporate events, and special occasions — every event at The Reserve is crafted with intention and elegance.",
+    alternates: {
+        canonical: "/what-we-offer",
+    },
 };
 
 export default function WhatWeOfferPage() {
