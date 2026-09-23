@@ -3,11 +3,17 @@ import Link from "next/link";
 function Footer() {
     return (
         <footer className='relative flex w-full flex-col justify-between items-center gap-[60px] lg:gap-20 px-[5%] lg:px-[8%] pt-[7.5%] lg:pt-36 pb-[5%] lg:pb-16.5 overflow-hidden'>
-            <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(/images/menu-bg.png)' }} />
+            <img
+                src="/images/menu-bg.webp"
+                alt=""
+                loading="lazy"
+                decoding="async"
+                className="absolute inset-0 h-full w-full object-cover object-center"
+            />
             <div className="relative z-10 flex w-full flex-col lg:flex-row justify-center items-start gap-[clamp(0px,2.604vw,50px)]">
                 <div className="w-full lg:w-1/3 flex justify-center lg:justify-start">
                     <Link href="/">
-                        <img alt="" className="w-[220px] sm:w-[260px] lg:w-[308px] h-[90px] object-contain" src="/images/Reserve-logo.png" />
+                        <img alt="The Reserve — home" loading="lazy" decoding="async" className="w-[220px] sm:w-[260px] lg:w-[308px] h-[90px] object-contain" src="/images/Reserve-logo.webp" />
                     </Link>
                 </div>
                 <div className="lg:w-1/3 max-lg:w-full">

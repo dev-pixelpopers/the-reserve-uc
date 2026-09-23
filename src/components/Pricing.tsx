@@ -65,16 +65,16 @@ export default function Pricing() {
                 <div className='pricing-images relative flex h-full min-h-max lg:min-h-[420px] max-h-[700px] w-full flex-1 items-center justify-center'>
                     <div className='group absolute right-[40%] top-[3%] lg:right-[10%] h-[250px] lg:top-[10%] z-10 aspect-[4/5] w-[42%] max-w-[200px] lg:w-[350px] lg:max-w-[75%]'>
                         <div className='absolute inset-0 rotate-[6deg] rounded-[24px] lg:rounded-[32px] bg-white/10 transition-transform duration-700 group-hover:rotate-[10deg]'></div>
-                        <img
-                            src="/images/customize-experience-right.png"
+                        <img loading="lazy" decoding="async"
+                            src="/images/customize-experience-right.webp"
                             className='absolute inset-0 h-full w-full rotate-[-2deg] rounded-[24px] lg:rounded-[32px] object-cover shadow-2xl transition-transform duration-700 group-hover:rotate-0'
                             alt=""
                         />
                     </div>
                     <div className='group absolute -bottom-[15%] left-[40%] lg:left-[-1%] h-[250px] lg:bottom-[5%] z-20 aspect-[4/5] w-[42%] max-w-[200px] lg:w-[350px] lg:max-w-[75%]'>
                         <div className='absolute inset-0 rotate-[-6deg] rounded-[24px] lg:rounded-[32px] bg-white/10 transition-transform duration-700 group-hover:rotate-[-10deg]'></div>
-                        <img
-                            src="/images/exp-2.png"
+                        <img loading="lazy" decoding="async"
+                            src="/images/exp-2.webp"
                             className='absolute inset-0 h-full w-full rotate-[4deg] rounded-[24px] lg:rounded-[32px] object-cover shadow-2xl transition-transform duration-700 group-hover:rotate-0'
                             alt=""
                         />

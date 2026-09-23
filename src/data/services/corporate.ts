@@ -20,7 +20,7 @@ export const corporateContent: CorporateContent = {
                 tag: 'Conferences',
                 title: 'Full-Day Conferences',
                 body: 'Keynote stages, breakout suites, networking lounges — reconfigured in minutes, not hours. Our ops team ships a Run-of-Show document before you arrive.',
-                image: '/images/where-we-are-today.png',
+                image: '/images/where-we-are-today-png.webp',
                 specs: [
                     'Up to 600 theatre-style',
                     '8 breakout rooms',
@@ -32,7 +32,7 @@ export const corporateContent: CorporateContent = {
                 tag: 'Product Launches',
                 title: 'Launches & Activations',
                 body: 'Brand-stage, press-wall, hero-product spotlight. We build your reveal moment with theatrical lighting, scented air, and a guest-flow designed for share-worthy content.',
-                image: '/images/insta-sec-2.png',
+                image: '/images/insta-sec-2.webp',
                 specs: [
                     'Custom stage architecture',
                     'Brand-matched lighting plots',
@@ -44,7 +44,7 @@ export const corporateContent: CorporateContent = {
                 tag: 'Executive Summits',
                 title: 'Board & Executive Summits',
                 body: 'Confidentiality by design. Sound-isolated suites, screened catering, discreet entrances — for the meetings that never make the press release.',
-                image: '/images/where-it-all-started.png',
+                image: '/images/where-it-all-started-png.webp',
                 specs: [
                     'Sound-isolated boardrooms',
                     'Secure discreet entry',
@@ -56,7 +56,7 @@ export const corporateContent: CorporateContent = {
                 tag: 'Brand Dinners',
                 title: 'Client & Brand Dinners',
                 body: 'Chef-led tasting menus, sommelier pairings, a private room. The context in which real relationships get built.',
-                image: '/images/insta-sec-1.png',
+                image: '/images/insta-sec-1.webp',
                 specs: [
                     'Chef tasting menus',
                     'Sommelier pairings',

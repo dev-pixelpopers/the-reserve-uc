@@ -4,7 +4,8 @@ export const foundersContent: FoundersContent = {
     hero: {
         eyebrow: 'The Visionaries',
         title: 'Meet the founders',
-        image: '/images/meet-the-founder-bg.jpg',
+        lead: "Meet the visionaries behind The Reserve, bringing passion, creativity, and thoughtful hospitality to every experience. Together, they have created a space where every celebration feels personal, elevated, and unforgettable.",
+        image: '/images/meet-the-founder-bg.webp',
         imageAlt: 'Moh and Farah Jaan at The Reserve',
         breadcrumbs: [
             { text: 'Home', href: '/' },
@@ -15,9 +16,9 @@ export const foundersContent: FoundersContent = {
         {
             role: 'Ceo & Founder',
             name: 'Moh Jaan',
-            image: '/images/moh-profile-img.jpg',
+            image: '/images/moh-profile-img.webp',
             imageAlt: 'Moh Jaan',
-            signature: '/images/moh-jaan-signature.png',
+            signature: '/images/moh-jaan-signature.webp',
             signatureAlt: 'Signature of Moh Jaan',
             sectionClassName: 'moh-sec',
             paragraphs: [
@@ -31,9 +32,9 @@ export const foundersContent: FoundersContent = {
         {
             role: 'Co-Ceo & Co-Founder',
             name: 'Farah Jaan',
-            image: '/images/farah-profile-img.jpg',
+            image: '/images/farah-profile-img.webp',
             imageAlt: 'Farah Jaan',
-            signature: '/images/farah-jaan-signature.png',
+            signature: '/images/farah-jaan-signature.webp',
             signatureAlt: 'Signature of Farah Jaan',
             sectionClassName: 'farah-sec',
             reverse: true,
@@ -49,7 +50,7 @@ export const foundersContent: FoundersContent = {
     ],
     leadership: {
         heading: 'Leadership',
-        image: '/images/founders.jpg',
+        image: '/images/founders.webp',
         imageAlt: 'The leadership of The Reserve',
         paragraphs: [
             'The Reserve is guided by a family-led leadership structure grounded in vision, governance, and long-horizon thinking. As Co-CEOs, Moh and Farah Jaan unite architectural discipline with financial oversight, balancing creative authority with institutional rigor under a shared standard of permanence.',

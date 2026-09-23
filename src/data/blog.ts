@@ -9,7 +9,7 @@ export const blogContent: BlogContent = {
         date: 'March 15, 2026',
         category: 'Behind the Scenes',
         readTime: '8 min read',
-        image: '/images/where-section-bg.png',
+        image: '/images/where-section-bg.webp',
         ctaLabel: 'Read the Full Story',
         ctaHref: '/blogs',
     },
@@ -36,7 +36,7 @@ export const blogContent: BlogContent = {
             date: 'Feb 28, 2026',
             category: 'Weddings',
             readTime: '5 min',
-            image: '/images/wedding.jpg',
+            image: '/images/wedding.webp',
             layout: 'large',
         },
         {
@@ -46,7 +46,7 @@ export const blogContent: BlogContent = {
             date: 'Feb 10, 2026',
             category: 'Design',
             readTime: '4 min',
-            image: '/images/where-it-all-started.png',
+            image: '/images/where-it-all-started-png.webp',
             layout: 'small',
         },
         {
@@ -57,7 +57,7 @@ export const blogContent: BlogContent = {
             date: 'Jan 22, 2026',
             category: 'Culinary',
             readTime: '6 min',
-            image: '/images/insta-sec-1.png',
+            image: '/images/insta-sec-1.webp',
             layout: 'small',
         },
         {
@@ -68,7 +68,7 @@ export const blogContent: BlogContent = {
             date: 'Jan 5, 2026',
             category: 'Corporate',
             readTime: '7 min',
-            image: '/images/insta-sec-3.png',
+            image: '/images/insta-sec-3.webp',
             layout: 'large',
         },
         {
@@ -78,7 +78,7 @@ export const blogContent: BlogContent = {
             date: 'Dec 18, 2025',
             category: 'Design',
             readTime: '5 min',
-            image: '/images/where-we-are-today.png',
+            image: '/images/where-we-are-today-png.webp',
             layout: 'small',
         },
         {
@@ -88,7 +88,7 @@ export const blogContent: BlogContent = {
             date: 'Dec 1, 2025',
             category: 'Weddings',
             readTime: '6 min',
-            image: '/images/insta-sec-2.png',
+            image: '/images/insta-sec-2.webp',
             layout: 'small',
         },
     ],

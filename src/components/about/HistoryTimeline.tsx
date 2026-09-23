@@ -122,7 +122,7 @@ export default function HistoryTimeline({ heading, items }: HistoryTimelineProps
                         key={i}
                         className="timeline-card relative flex flex-col w-full lg:min-w-[700px] h-[60vh] sm:h-[65vh] lg:h-[75vh] rounded-[20px] lg:rounded-[30px] overflow-hidden group"
                     >
-                        <img
+                        <img loading="lazy" decoding="async"
                             src={item.image}
                             alt={item.title}
                             className="absolute inset-0 h-full w-full object-cover scale-100 group-hover:scale-105 ease-in-out duration-[1200ms] lg:duration-[1500ms]"

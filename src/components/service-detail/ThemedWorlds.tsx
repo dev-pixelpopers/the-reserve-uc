@@ -56,7 +56,7 @@ export default function ThemedWorlds({ eyebrow, heading, body, items }: ThemedWo
             <div className="grid grid-cols-1 md:grid-cols-2 gap-[24px] lg:gap-[40px]">
                 {items.map((item) => (
                     <div key={item.name} className="theme-card group relative aspect-[5/4] overflow-hidden rounded-[6px]">
-                        <img
+                        <img loading="lazy" decoding="async"
                             src={item.image}
                             alt={item.name}
                             className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"

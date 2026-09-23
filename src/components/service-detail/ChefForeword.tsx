@@ -70,7 +70,7 @@ export default function ChefForeword({
         >
             <div className="flex flex-col lg:flex-row gap-[clamp(40px,4.167vw,80px)] items-start max-w-[1400px] mx-auto">
                 <div className="w-full lg:w-[30%] relative aspect-[4/5] overflow-hidden rounded-[6px]">
-                    <img
+                    <img loading="lazy" decoding="async"
                         src={image}
                         alt={imageAlt}
                         className="foreword-portrait absolute inset-0 w-full h-[120%] object-cover"
@@ -97,7 +97,7 @@ export default function ChefForeword({
                         {body}
                     </p>
                     <div className="foreword-signature h-[1px] bg-[#B09983] w-[150px] lg:w-[220px]" />
-                    <img
+                    <img loading="lazy" decoding="async"
                         src={signature}
                         alt=""
                         className="foreword-line w-[130px] lg:w-[180px] h-auto opacity-80"

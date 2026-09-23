@@ -68,7 +68,7 @@ export default function ActsStoryboard({ acts }: ActsStoryboardProps) {
                             className="wedding-act-image absolute inset-0"
                             style={{ opacity: i === 0 ? 1 : 0 }}
                         >
-                            <img src={act.image} alt={act.title} className="w-full h-full object-cover" />
+                            <img loading="lazy" decoding="async" src={act.image} alt={act.title} className="w-full h-full object-cover" />
                             <div className="absolute inset-0 bg-gradient-to-r from-transparent to-[#1a1a1a]/80" />
                             <div className="absolute bottom-[60px] left-[60px] z-10">
                                 <span className="font-midland text-[200px] leading-[180px] text-white/10">
@@ -86,7 +86,7 @@ export default function ActsStoryboard({ acts }: ActsStoryboardProps) {
                             className="wedding-act-panel lg:min-h-screen flex flex-col justify-center gap-[32px] px-[9%] py-[11%] border-t border-white/5 first:border-t-0"
                         >
                             <div className="block lg:hidden w-full overflow-hidden rounded-[20px] mb-[10px]">
-                                <img src={act.image} alt={act.title} className="w-full h-auto object-cover" />
+                                <img loading="lazy" decoding="async" src={act.image} alt={act.title} className="w-full h-auto object-cover" />
                             </div>
 
                             <span

@@ -86,7 +86,7 @@ export default function DiningRooms({ eyebrow, heading, body, items }: DiningRoo
                                     className={`${reverse ? 'lg:col-start-7 lg:col-span-6' : 'col-span-1 lg:col-span-6'} relative aspect-[4/5] overflow-hidden rounded-[8px]`}
                                 >
                                     <div className="dining-room-image absolute inset-0">
-                                        <img src={room.image} alt={room.name} className="w-full h-full object-cover" />
+                                        <img loading="lazy" decoding="async" src={room.image} alt={room.name} className="w-full h-full object-cover" />
                                         <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
                                     </div>
                                     <span

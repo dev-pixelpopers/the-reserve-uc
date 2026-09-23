@@ -5,7 +5,8 @@ export const aboutContent: AboutContent = {
     hero: {
         eyebrow: 'About The Reserve',
         title: 'Where History Meets Modern Elegance',
-        image: '/images/where-it-all-started.png',
+        lead: "From intimate gatherings to grand celebrations, The Reserve creates unforgettable experiences with thoughtful details, timeless elegance, and effortless sophistication.",
+        image: '/images/where-it-all-started-png.webp',
         imageAlt: 'The restored facade of The Reserve',
         breadcrumbs: [
             { text: 'Home', href: '/' },
@@ -23,13 +24,13 @@ export const aboutContent: AboutContent = {
             year: '2018',
             title: 'The Vision',
             text: 'A forgotten landmark caught our eye — its bones were magnificent, its potential limitless. We acquired the building with a single dream: to create something extraordinary.',
-            image: '/images/where-it-all-started.png',
+            image: '/images/where-it-all-started-png.webp',
         },
         {
             year: '2020',
             title: 'The Restoration',
             text: 'Every beam inspected, every archway preserved. A renovation honored the original craftsmanship while introducing modern luxury into every corner.',
-            image: '/images/where-section-bg.png',
+            image: '/images/where-section-bg.webp',
         },
     ],
     cta: defaultClosingCTA,

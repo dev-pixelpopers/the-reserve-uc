@@ -1,23 +1,27 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: 'MidLand-Regular';
-  src: url('/fonts/MidlandluxuryRegular.otf') format('opentype');
+  font-family: 'Midland-Regular';
+  src: url('/fonts/MidlandluxuryRegular.woff2') format('woff2');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Gayathri';
-  src: url('/fonts/Gayathri-Regular.ttf') format('truetype');
+  src: url('/fonts/Gayathri-Regular.woff2') format('woff2');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'IconScript';
-  src: url('/fonts/Icon-Script.ttf');
+  src: url('/fonts/Icon-Script.woff2') format('woff2');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Seasons';
-  src: url('/fonts/seasons-regular.ttf') format('truetype');
+  src: url('/fonts/seasons-regular.woff2') format('woff2');
+  font-display: swap;
 }
 
 @theme {
@@ -27,7 +31,7 @@
   --font-iconscript: "IconScript", Georgia, serif;
   --font-midland: "Midland-Regular", Georgia, serif;
   --font-gayathri: "Gayathri", Georgia, serif;
-  --breakpoint-3xl: 1700;
+  --breakpoint-3xl: 1700px;
 }
 
 body {

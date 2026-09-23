@@ -67,7 +67,7 @@ export default function PostGrid({ heading, posts, postHref = () => '/blogs' }: 
                                         style={{ backgroundImage: cardGradient }}
                                     >
                                         <div className="w-full md:w-1/2 h-[220px] md:h-auto overflow-hidden">
-                                            <img
+                                            <img loading="lazy" decoding="async"
                                                 src={post.image}
                                                 alt={post.title}
                                                 className="w-full h-full object-cover scale-100 group-hover:scale-110 ease-in-out duration-[1500ms]"
@@ -103,7 +103,7 @@ export default function PostGrid({ heading, posts, postHref = () => '/blogs' }: 
                                         style={{ backgroundImage: cardGradient }}
                                     >
                                         <div className="overflow-hidden h-[55%]">
-                                            <img
+                                            <img loading="lazy" decoding="async"
                                                 src={post.image}
                                                 alt={post.title}
                                                 className="w-full h-full object-cover scale-100 group-hover:scale-110 ease-in-out duration-[1500ms]"

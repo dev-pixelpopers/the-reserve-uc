@@ -122,7 +122,7 @@ export default function ServiceFooterCTA({
                                 data-related-card
                                 className="group relative block overflow-hidden rounded-[8px] aspect-[4/5]"
                             >
-                                <img
+                                <img loading="lazy" decoding="async"
                                     src={meta.heroImage}
                                     alt={meta.title}
                                     className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"

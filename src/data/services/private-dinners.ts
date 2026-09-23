@@ -15,11 +15,11 @@ export const privateDinnersContent: PrivateDinnersContent = {
         eyebrow: "Chef's Foreword",
         heading: '"A private dinner is a small theatre. We write the script around your table."',
         body: 'Every menu we cook is composed for the table that is sitting down — allergies, preferences, anniversaries, the wine you drank on your first date. Nothing is copy-pasted. Nothing arrives by accident.',
-        image: '/images/farah-jaan.png',
+        image: '/images/farah-jaan.webp',
         imageAlt: 'Farah Jaan, Executive Chef',
         role: 'Executive Chef',
         name: 'Farah Jaan',
-        signature: '/images/farah-jaan-signature.png',
+        signature: '/images/farah-jaan-signature.webp',
     },
     rooms: {
         eyebrow: 'Three Private Rooms',
@@ -30,7 +30,7 @@ export const privateDinnersContent: PrivateDinnersContent = {
                 name: 'The Library',
                 seats: '2 – 10 guests',
                 vibe: 'Oak panels, floor-to-ceiling shelves, a working fireplace. For the conversation that needs no interruption.',
-                image: '/images/where-it-all-started.png',
+                image: '/images/where-it-all-started-png.webp',
                 features: [
                     'Fireplace, actually working',
                     'Private bar trolley',
@@ -42,7 +42,7 @@ export const privateDinnersContent: PrivateDinnersContent = {
                 name: 'The Conservatory',
                 seats: '8 – 24 guests',
                 vibe: 'Glass ceiling, white linen, garden views. Light-filled by day, candlelit by night.',
-                image: '/images/where-section-bg.png',
+                image: '/images/where-section-bg.webp',
                 features: [
                     'Garden-facing glass roof',
                     'Long single-table setting',
@@ -54,7 +54,7 @@ export const privateDinnersContent: PrivateDinnersContent = {
                 name: 'The Vault',
                 seats: '4 – 12 guests',
                 vibe: 'Below the main floor. Low light, dark stone, the wine cellar visible through glass. For the most discreet evenings.',
-                image: '/images/insta-sec-3.png',
+                image: '/images/insta-sec-3.webp',
                 features: [
                     'Sound-isolated',
                     'Direct cellar access',

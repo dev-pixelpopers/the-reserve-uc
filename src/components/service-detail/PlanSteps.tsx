@@ -68,7 +68,7 @@ export default function PlanSteps({ eyebrow, heading, body, image, steps, closin
             className="relative w-full bg-[#0E0E0E] py-[8%] lg:py-[160px] px-[6.6%] lg:px-[8.5%] overflow-hidden"
         >
             <div className="absolute inset-0 z-0">
-                <img src={image} alt="" className="plan-bg absolute inset-0 w-full h-[130%] object-cover opacity-25" />
+                <img loading="lazy" decoding="async" src={image} alt="" className="plan-bg absolute inset-0 w-full h-[130%] object-cover opacity-25" />
                 <div className="absolute inset-0 bg-gradient-to-b from-[#0E0E0E] via-[#0E0E0E]/85 to-[#0E0E0E]" />
             </div>
 

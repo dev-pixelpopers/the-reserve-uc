@@ -42,7 +42,7 @@ export const birthdaysContent: BirthdaysContent = {
                     'Photo booth integration',
                     'Dietary-friendly menus',
                 ],
-                image: '/images/insta-sec-1.png',
+                image: '/images/insta-sec-1.webp',
             },
             {
                 id: 'quarter-life',
@@ -56,7 +56,7 @@ export const birthdaysContent: BirthdaysContent = {
                     'Vinyl & live DJ sets',
                     'Late-night dessert bar',
                 ],
-                image: '/images/insta-sec-2.png',
+                image: '/images/insta-sec-2.webp',
             },
             {
                 id: 'thirty',
@@ -70,7 +70,7 @@ export const birthdaysContent: BirthdaysContent = {
                     'Toasts & tribute reels',
                     'Suite for the honouree',
                 ],
-                image: '/images/where-we-are-today.png',
+                image: '/images/where-we-are-today-png.webp',
             },
             {
                 id: 'fifty',
@@ -84,7 +84,7 @@ export const birthdaysContent: BirthdaysContent = {
                     'Live band coordination',
                     'Memory-book stations',
                 ],
-                image: '/images/where-it-all-started.png',
+                image: '/images/where-it-all-started-png.webp',
             },
             {
                 id: 'golden',
@@ -98,7 +98,7 @@ export const birthdaysContent: BirthdaysContent = {
                     'Archival photo projection',
                     'Grandchildren activity suite',
                 ],
-                image: '/images/wedding.jpg',
+                image: '/images/wedding.webp',
             },
         ],
     },
@@ -112,28 +112,28 @@ export const birthdaysContent: BirthdaysContent = {
                 palette: ['#DEC7AD', '#B09983', '#FAEEE1'],
                 description:
                     'Blooming trellises, candlelit long tables, linen everywhere. A daylight party that eases into dusk.',
-                image: '/images/insta-sec-2.png',
+                image: '/images/insta-sec-2.webp',
             },
             {
                 name: 'Art Deco Gala',
                 palette: ['#0E0E0E', '#D4AF37', '#D9D9D9'],
                 description:
                     'Brass, black marble, feathers and jazz. A room that looks like it arrived by ocean liner.',
-                image: '/images/where-we-are-today.png',
+                image: '/images/where-we-are-today-png.webp',
             },
             {
                 name: 'Nightfall Lounge',
                 palette: ['#1A1A1A', '#B09983', '#202020'],
                 description:
                     'Low light, deep velvet, a saxophonist in the corner. The sophisticated set-piece for guests who prefer the shadows.',
-                image: '/images/insta-sec-3.png',
+                image: '/images/insta-sec-3.webp',
             },
             {
                 name: 'Heritage & Home',
                 palette: ['#FAEEE1', '#B09983', '#594B4B'],
                 description:
                     'Family recipes, photographs through the decades, a slideshow scored by the birthday child. The warmest format we run.',
-                image: '/images/where-it-all-started.png',
+                image: '/images/where-it-all-started-png.webp',
             },
         ],
     },
@@ -174,7 +174,7 @@ export const birthdaysContent: BirthdaysContent = {
         eyebrow: 'Plan A Milestone Worth Remembering',
         heading: 'Three Steps. One Unforgettable Night.',
         body: "Tell us who we're celebrating and the decade they're marking. We'll come back with three creative directions within a week.",
-        image: '/images/insta-sec-1.png',
+        image: '/images/insta-sec-1.webp',
         steps: [
             {
                 step: '01',

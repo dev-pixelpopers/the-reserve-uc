@@ -52,7 +52,7 @@ export default function ParallaxSection({
     return (
         <div ref={sectionRef} className={`w-full ${heightClass} relative overflow-hidden`}>
             <div ref={imageRef} className="absolute inset-[-100px]">
-                <img src={image} alt="" className="w-full h-full object-cover" />
+                <img loading="lazy" decoding="async" src={image} alt="" className="w-full h-full object-cover" />
             </div>
             <div className="absolute inset-0 bg-black/40" />
             <div className="relative z-10 flex flex-col items-center justify-center h-full gap-6 text-center px-[5%]">

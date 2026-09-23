@@ -16,7 +16,7 @@ export const weddingsContent: WeddingsContent = {
             act: 'Act I',
             title: 'The Ceremony',
             body: 'Aisles framed by century-old oaks. A string quartet under a candlelit arch. The moment when two lives become one — staged with the weight it deserves.',
-            image: '/images/wedding.jpg',
+            image: '/images/wedding.webp',
             details: [
                 'Outdoor & chapel options',
                 'Custom floral arches',
@@ -28,7 +28,7 @@ export const weddingsContent: WeddingsContent = {
             act: 'Act II',
             title: 'Cocktail Hour',
             body: 'Bespoke cocktails on the terrace while the light softens. Hand-passed canapés, a jazz trio, and time for guests to settle into celebration.',
-            image: '/images/insta-sec-2.png',
+            image: '/images/insta-sec-2.webp',
             details: [
                 'Signature cocktail design',
                 'Passed & stationed canapés',
@@ -40,7 +40,7 @@ export const weddingsContent: WeddingsContent = {
             act: 'Act III',
             title: 'The Reception',
             body: 'A chandelier-lit ballroom. Tablescapes of imported linens and heritage china. A plated dinner — or family-style feast — paired with a sommelier-led wine flight.',
-            image: '/images/where-we-are-today.png',
+            image: '/images/where-we-are-today-png.webp',
             details: [
                 'Plated or family-style dining',
                 'Sommelier wine pairings',
@@ -52,7 +52,7 @@ export const weddingsContent: WeddingsContent = {
             act: 'Act IV',
             title: 'The Last Dance',
             body: 'Dance floor, sparkler send-off, late-night bites. The night you will replay for the rest of your lives — given the room it deserves.',
-            image: '/images/insta-sec-1.png',
+            image: '/images/insta-sec-1.webp',
             details: [
                 'Live band or DJ coordination',
                 'Late-night food carts',
@@ -97,7 +97,7 @@ export const weddingsContent: WeddingsContent = {
         quote:
             '"The first look. The first dance. The walk down the aisle. These are the moments we guard with our lives."',
         attribution: 'Farah Jaan, Events Director at The Reserve',
-        image: '/images/where-section-bg.png',
+        image: '/images/where-section-bg.webp',
     },
     footer: {
         ctaHeadline: 'Begin Your Wedding at The Reserve',

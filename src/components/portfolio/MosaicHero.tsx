@@ -58,7 +58,7 @@ export default function MosaicHero({ eyebrow, title, images }: MosaicHeroProps) 
                             ref={(el) => { mosaicRefs.current[i] = el; }}
                             className={`${mosaicSizes[i] ?? mosaicSizes[0]} rounded-[20px] overflow-hidden`}
                         >
-                            <img src={image.src} alt={image.alt} className="w-full h-full object-cover" />
+                            <img decoding="async" src={image.src} alt={image.alt} className="w-full h-full object-cover" />
                         </div>
                     ))}
                 </div>

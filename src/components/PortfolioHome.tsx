@@ -115,8 +115,8 @@ export default function PortfolioHome() {
                 <div ref={PortfolioImage1Ref}
                     className='relative z-10 h-[300px] sm:h-[400px] lg:h-full w-full lg:w-1/2 overflow-hidden rounded-[24px] lg:rounded-none'
                 >
-                    <img
-                        src="/images/where-it-all-started.jpg"
+                    <img loading="lazy" decoding="async"
+                        src="/images/where-it-all-started-jpg.webp"
                         className='h-full w-full object-cover scale-100 transition-transform duration-[1500ms] ease-in-out hover:scale-125'
                         alt=""
                     />
@@ -134,8 +134,8 @@ export default function PortfolioHome() {
                     ref={PortfolioImage2Ref}
                     className='relative z-10 h-[390px] sm:h-[400px] lg:h-full w-full lg:w-1/2 overflow-hidden rounded-[24px] lg:rounded-none'
                 >
-                    <img
-                        src="/images/where-we-are-today.jpg"
+                    <img loading="lazy" decoding="async"
+                        src="/images/where-we-are-today-jpg.webp"
                         className='h-full w-full object-cover scale-100 transition-transform duration-[1500ms] ease-in-out hover:scale-125'
                         alt=""
                     />
@@ -160,8 +160,8 @@ export default function PortfolioHome() {
                     ref={PortfolioImage3Ref}
                     className='absolute z-0 lg:block w-full lg:w-[1000px] h-full lg:h-[780px]'
                 >
-                    <img
-                        src="/images/where-section-bg.png"
+                    <img loading="lazy" decoding="async"
+                        src="/images/where-section-bg.webp"
                         className='h-full w-full object-cover'
                         alt=""
                     />

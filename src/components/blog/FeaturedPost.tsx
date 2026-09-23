@@ -52,7 +52,7 @@ export default function FeaturedPost({
     return (
         <div ref={featuredSectionRef} className="relative w-full h-screen bg-[#0e1111] overflow-hidden">
             <div ref={featuredImageRef} className="absolute inset-0">
-                <img src={image} alt={title} className="w-full h-full object-cover" />
+                <img loading="lazy" decoding="async" src={image} alt={title} className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#202020] via-[#202020]/50 to-transparent" />
             </div>
 

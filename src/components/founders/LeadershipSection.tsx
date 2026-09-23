@@ -84,7 +84,7 @@ export default function LeadershipSection({ heading, image, imageAlt, paragraphs
             className="leadership-sec w-full flex flex-col xl:flex-row items-start gap-[clamp(20px,2.083vw,40px)] relative bg-[#0e1111] py-[8%] md:py-[10%] lg:py-[120px] px-[5%] lg:px-[129px]"
         >
             <div className="w-full lg:w-[35%]">
-                <img
+                <img loading="lazy" decoding="async"
                     ref={leadImageRef}
                     src={image}
                     alt={imageAlt}

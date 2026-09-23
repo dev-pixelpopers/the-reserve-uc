@@ -46,7 +46,7 @@ export default function About() {
                 <div className='w-full flex flex-col lg:flex-row justify-center items-center lg:items-end px-[6%] lg:px-[6.72%] pt-[14%] lg:pt-[6.25%] pb-[10%] lg:pb-[0%] gap-10'>
                     <div className='w-full lg:w-[25%] flex flex-col justify-start items-center gap-6 lg:gap-10 lg:min-h-[74dvh] order-2 lg:order-1'>
                         <div className='w-full flex justify-center'>
-                            <img ref={aboutMohImageRef} src="/images/moh-img.jpg" alt="" className='w-full aspect-[3/4] object-cover max-w-[250px] lg:max-w-[384px] lg:max-w-none ' />
+                            <img loading="lazy" decoding="async" ref={aboutMohImageRef} src="/images/moh-img.webp" alt="" className='w-full aspect-[3/4] object-cover max-w-[250px] lg:max-w-[384px] lg:max-w-none ' />
                         </div>
                     </div>
                     <div className='w-full lg:w-[50%] flex flex-col justify-start items-start lg:min-h-[74dvh] pt-0 lg:pt-[3vw] gap-[clamp(1rem,1.354vw,1.625rem)] order-1 lg:order-2'>

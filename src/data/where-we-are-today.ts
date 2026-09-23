@@ -6,7 +6,7 @@ export const whereWeAreTodayContent: WhereWeAreTodayContent = {
         eyebrow: 'Where We Are Today',
         title: 'A Century of History.',
         lead: 'The restoration is complete. The doors are open. And the best chapters are still being written.',
-        image: '/images/where-we-are-today.png',
+        image: '/images/where-we-are-today-png.webp',
         imageAlt: 'The Reserve today, a fully restored venue',
         breadcrumbs: [
             { text: 'Home', href: '/' },

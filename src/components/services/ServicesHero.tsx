@@ -13,7 +13,7 @@ export default function ServicesHero({
     return (
         <div className="relative w-full h-screen flex flex-col justify-center md:justify-end pb-[5.1%] md:pb-[2.1%] overflow-hidden bg-[#0e1111]">
             <div className="absolute inset-0">
-                <img src={image} alt={imageAlt} className="h-full w-full object-cover opacity-30 mix-blend-multiply" />
+                <img decoding="async" src={image} alt={imageAlt} className="h-full w-full object-cover opacity-30 mix-blend-multiply" />
             </div>
 
             <div className="relative z-10 flex flex-col px-8 md:px-16 lg:px-25 gap-[20px] lg:gap-[50px]">

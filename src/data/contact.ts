@@ -14,11 +14,11 @@ export const contactContent: ContactContent = {
         ],
     },
     venueImages: [
-        { src: '/images/where-it-all-started.png', alt: 'The Reserve, restored facade' },
-        { src: '/images/where-we-are-today.jpg', alt: 'The Reserve today' },
-        { src: '/images/weddings-receptions.jpg', alt: 'A wedding reception at The Reserve' },
-        { src: '/images/special-occasions.png', alt: 'A special occasion at The Reserve' },
-        { src: '/images/corporate-events.png', alt: 'A corporate event at The Reserve' },
+        { src: '/images/where-it-all-started-png.webp', alt: 'The Reserve, restored facade' },
+        { src: '/images/where-we-are-today-jpg.webp', alt: 'The Reserve today' },
+        { src: '/images/weddings-receptions.webp', alt: 'A wedding reception at The Reserve' },
+        { src: '/images/special-occasions.webp', alt: 'A special occasion at The Reserve' },
+        { src: '/images/corporate-events.webp', alt: 'A corporate event at The Reserve' },
     ],
     eventTypes: [
         'Wedding & Reception',
@@ -62,7 +62,7 @@ export const contactContent: ContactContent = {
         },
     ],
     location: {
-        image: '/images/where-section-bg.png',
+        image: '/images/where-section-bg.webp',
         heading: 'The Reserve',
         body: '31014 Union City blvd. Union city CA 94587',
         buttonLabel: 'Get Directions',

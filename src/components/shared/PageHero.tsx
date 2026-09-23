@@ -57,11 +57,11 @@ export default function PageHero({
     }, [parallax]);
 
     return (
-        <div className="relative w-full h-screen flex flex-col justify-center items-start bg-[#0e1111] overflow-hidden">
-            <div ref={heroImageRef} className={`absolute inset-0 overflow-hidden ${parallax ? 'scale-110' : ''}`}>
-                <img src={image} alt={imageAlt} className={imageClassName} />
+        <div className="relative w-full h-screen flex flex-col justify-end items-start pb-[5.1%] md:pb-[2.1%] bg-[#0e1111] overflow-hidden">
+            {/* <div ref={heroImageRef} className={`absolute inset-0 overflow-hidden ${parallax ? 'scale-110' : ''}`}>
+                <img decoding="async" src={image} alt={imageAlt} className={imageClassName} />
                 <div className={overlayClassName} />
-            </div>
+            </div> */}
 
             <div className={`relative z-10 w-full flex flex-col justify-center items-start px-8 md:px-16 lg:px-25 gap-[20px] lg:gap-[50px] ${contentClassName}`}>
                 <Breadcrumb items={breadcrumbs} />
@@ -70,7 +70,7 @@ export default function PageHero({
                     <h1 className={titleClassName}>{title}</h1>
                     {subtitle && <h2 className={subtitleClassName}>{subtitle}</h2>}
                     {lead && (
-                        <p className="font-seasons text-[clamp(16px,2vw,26px)] leading-[2] lg:leading-[38px] max-w-full lg:max-w-[580px] text-[#FAF4ED]">
+                        <p className="max-w-[clamp(300px,36.458vw,700px)] font-seasons text-[clamp(16px,2vw,26px)] leading-[1.6] lg:leading-[45px] text-[#FAF4ED]">
                             {lead}
                         </p>
                     )}

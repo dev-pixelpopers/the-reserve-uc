@@ -14,7 +14,7 @@ const services = [
         title_2: '& Receptions',
         description_1: "Weddings and receptions at The Reserve are where timeless romance meets effortless luxury, each moment thoughtfully curated, beautifully celebrated, and truly unforgettable.",
         description_2: "Start Planning",
-        image: '/images/weddings-receptions.jpg',
+        image: '/images/weddings-receptions.webp',
         href: '/contact-us'
     },
     {
@@ -23,7 +23,7 @@ const services = [
         title_2: 'occasions',
         description_1: "Celebrate your love in a setting that is elegant, romantic, and entirely customizable.",
         description_2: "Start Planning",
-        image: '/images/special-occasions.png',
+        image: '/images/special-occasions.webp',
         href: '/contact-us'
     },
     {
@@ -32,14 +32,13 @@ const services = [
         title_2: 'events',
         description_1: "From intimate gatherings to grand celebrations, The Reserve provides a sophisticated backdrop for every corporate event.",
         description_2: "Start Planning",
-        image: '/images/corporate-events.png',
+        image: '/images/corporate-events.webp',
         href: '/contact-us'
     }
 ]
 
 export default function Services() {
     const cardsRef = useRef<HTMLDivElement[]>([]);
-    cardsRef.current = [];
     const [scale, setScale] = useState<number>(0.8);
 
     useEffect(() => {
@@ -91,7 +90,7 @@ export default function Services() {
                         }}
                     >
                         <div className="absolute inset-0 z-0">
-                            <img src="/images/menu-bg.png" alt="" className="w-full h-full object-cover" />
+                            <img loading="lazy" decoding="async" src="/images/menu-bg.webp" alt="" className="w-full h-full object-cover" />
                         </div>
                         <div className='w-full flex flex-col lg:flex-row justify-between items-center z-10 gap-8 lg:gap-0'>
                             <div className='w-full lg:w-1/2 flex flex-col justify-center items-start gap-8 lg:gap-20'>
@@ -122,7 +121,7 @@ export default function Services() {
                                 </div>
                             </div>
                             <div className='w-full lg:w-1/2 flex flex-col justify-center items-center'>
-                                <img src={service.image} className='w-[70%] lg:w-[20.833vw] lg:max-w-[400px] object-cover aspect-[4/5] rounded-[20px]' alt="" />
+                                <img loading="lazy" decoding="async" src={service.image} className='w-[70%] lg:w-[20.833vw] lg:max-w-[400px] object-cover aspect-[4/5] rounded-[20px]' alt="" />
                             </div>
                         </div>
                     </div>

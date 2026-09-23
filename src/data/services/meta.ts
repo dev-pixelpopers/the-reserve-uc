@@ -20,7 +20,7 @@ export const serviceMeta: Record<ServiceSlug, ServiceMeta> = {
         title: 'Weddings & Receptions',
         tagline:
             'Where forever begins — candlelit ceremonies, ballroom receptions, and an estate that holds your story for generations.',
-        heroImage: '/images/weddings-receptions.jpg',
+        heroImage: '/images/weddings-receptions.webp',
         heroAccent: '#DEC7AD',
     },
     'corporate-events': {
@@ -29,7 +29,7 @@ export const serviceMeta: Record<ServiceSlug, ServiceMeta> = {
         title: 'Corporate Events',
         tagline:
             'A stage for serious business and unforgettable brand moments — conferences, launches and private summits, designed with intent.',
-        heroImage: '/images/where-we-are-today.png',
+        heroImage: '/images/where-we-are-today-png.webp',
         heroAccent: '#B09983',
     },
     'birthdays': {
@@ -38,7 +38,7 @@ export const serviceMeta: Record<ServiceSlug, ServiceMeta> = {
         title: 'Birthday Celebrations',
         tagline:
             'Sweet sixteens, golden anniversaries, and every decade worth toasting — moments that deserve more than ordinary.',
-        heroImage: '/images/insta-sec-1.png',
+        heroImage: '/images/insta-sec-1.webp',
         heroAccent: '#DEC7AD',
     },
     'private-dinners': {
@@ -47,7 +47,7 @@ export const serviceMeta: Record<ServiceSlug, ServiceMeta> = {
         title: 'Private Dinners',
         tagline:
             'An intimate room, a chef-curated tasting, a sommelier at your table — evenings engineered for the quiet, important conversations.',
-        heroImage: '/images/insta-sec-3.png',
+        heroImage: '/images/insta-sec-3.webp',
         heroAccent: '#B09983',
     },
 };

@@ -20,14 +20,14 @@ export default function FounderProfile({
 }: FounderProfileProps) {
     const imageBlock = (
         <div className="w-full lg:w-[35%]">
-            <img
+            <img loading="lazy" decoding="async"
                 ref={imageRef}
                 src={image}
                 alt={imageAlt}
                 className={`w-full object-contain object-top ${reverse ? 'h-[420px] sm:h-[520px] lg:h-[600px]' : 'h-[420px] sm:h-[550px] lg:h-[700px]'}`}
             />
             <div className="w-full h-[400px] flex justify-center items-center">
-                <img src={signature} alt={signatureAlt} className="w-[40%] lg:w-auto max-w-full" />
+                <img loading="lazy" decoding="async" src={signature} alt={signatureAlt} className="w-[40%] lg:w-auto max-w-full" />
             </div>
         </div>
     );

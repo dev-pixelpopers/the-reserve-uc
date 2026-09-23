@@ -74,7 +74,7 @@ export default function PackageStack({ packages }: PackageStackProps) {
 
                     <div className="flex flex-col lg:flex-row items-start gap-[40px] lg:gap-[80px]">
                         <div className="w-full lg:w-[40%]">
-                            <img
+                            <img loading="lazy" decoding="async"
                                 src={pkg.image}
                                 alt={pkg.name}
                                 className="w-full h-[280px] lg:h-[500px] object-cover rounded-[20px]"

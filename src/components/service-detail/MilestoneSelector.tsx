@@ -89,7 +89,7 @@ export default function MilestoneSelector({ eyebrow, heading, viewingLabel, item
             <div className="flex flex-col lg:flex-row gap-[clamp(30px,4.167vw,80px)] items-stretch max-w-[1500px] mx-auto">
                 <div className="w-full lg:w-[48%] relative aspect-[4/5] overflow-hidden rounded-[8px]">
                     <div className="milestone-detail-image absolute inset-0" key={active.id}>
-                        <img src={active.image} alt={active.label} className="w-full h-full object-cover" />
+                        <img loading="lazy" decoding="async" src={active.image} alt={active.label} className="w-full h-full object-cover" />
                         <div
                             className="absolute inset-0 mix-blend-multiply"
                             style={{ backgroundColor: active.palette, opacity: 0.22 }}

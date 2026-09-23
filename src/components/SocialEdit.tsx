@@ -15,7 +15,7 @@ export default function SocialEdit() {
                 </h2>
             </div>
             <div className='w-full lg:w-[70%] flex flex-col lg:flex-row justify-center items-stretch gap-[30px] lg:gap-[10px] xl:gap-[15px] 2xl:gap-[31px]'>
-                <Link href="https://www.tiktok.com/@thereserveuc?_r=1&_t=ZS-96YPoMhtm8V" target='_blank' className='w-full lg:w-[51%] flex flex-col justify-start items-start rounded-[26px] bg-[#202020] py-[14px] gap-[20px] lg:h-fit'>
+                <Link href="https://www.tiktok.com/@thereserveuc?_r=1&_t=ZS-96YPoMhtm8V" target='_blank' aria-label="The Reserve on TikTok" className='w-full lg:w-[51%] flex flex-col justify-start items-start rounded-[26px] bg-[#202020] py-[14px] gap-[20px] lg:h-fit'>
                     <div className='w-full flex flex-row justify-center items-center gap-5 px-[5%] lg:px-[40px]'>
                         <div>
                             <FaTiktok size={25} className='text-white' />
@@ -35,8 +35,8 @@ export default function SocialEdit() {
                         <div className='w-full flex flex-row justify-between items-center gap-[10px]'>
                             <div className='w-[80%] flex flex-col 2xl:gap-5 lg:gap-3'>
 
-                                <img
-                                    src="/images/tiktok-img.png"
+                                <img loading="lazy" decoding="async"
+                                    src="/images/tiktok-img.webp"
                                     className='h-[420px] sm:h-[48vh] w-full rounded-[27px] object-cover'
                                     alt=""
                                 />
@@ -55,8 +55,8 @@ export default function SocialEdit() {
                                     </p>
 
                                     <span className='flex flex-row gap-2 text-[clamp(14px,2vw,16px)] text-white'>
-                                        <img
-                                            src="/images/tiktok-music-3.png"
+                                        <img loading="lazy" decoding="async"
+                                            src="/images/tiktok-music-3.webp"
                                             className='w-[15px] object-contain'
                                             alt=""
                                         />
@@ -65,20 +65,20 @@ export default function SocialEdit() {
                                 </div>
                             </div>
                             <div className="w-[20%] h-full flex flex-col justify-end items-center gap-[20px] lg:gap-[clamp(20px,2.083vw,40px)]">
-                                <img className="w-[clamp(42px,3.385vw,65px)]" alt="" src="/images/tiktok-user.png" />
-                                <img className="w-[clamp(42px,3.385vw,65px)]" alt="" src="/images/tiktok-heart.png" />
-                                <img className="w-[clamp(42px,3.385vw,65px)]" alt="" src="/images/tiktok-comment.png" />
-                                <img className="w-[clamp(42px,3.385vw,65px)]" alt="" src="/images/tiktok-share.png" />
-                                <img className="w-[clamp(42px,3.385vw,65px)]" alt="" src="/images/tiktok-music.png" />
+                                <img loading="lazy" decoding="async" className="w-[clamp(42px,3.385vw,65px)]" alt="" src="/images/tiktok-user.webp" />
+                                <img loading="lazy" decoding="async" className="w-[clamp(42px,3.385vw,65px)]" alt="" src="/images/tiktok-heart.webp" />
+                                <img loading="lazy" decoding="async" className="w-[clamp(42px,3.385vw,65px)]" alt="" src="/images/tiktok-comment.webp" />
+                                <img loading="lazy" decoding="async" className="w-[clamp(42px,3.385vw,65px)]" alt="" src="/images/tiktok-share.webp" />
+                                <img loading="lazy" decoding="async" className="w-[clamp(42px,3.385vw,65px)]" alt="" src="/images/tiktok-music.webp" />
                             </div>
                         </div>
                     </div>
                 </Link>
-                <Link href="https://www.instagram.com/thereserveuc?igsh=bjAwbTg1d21wcHN2" target="_blank" className='w-full lg:w-[49%] flex flex-col justify-start items-start rounded-[26px] bg-white py-5 px-5 gap-5'>
+                <Link href="https://www.instagram.com/thereserveuc?igsh=bjAwbTg1d21wcHN2" target="_blank" aria-label="The Reserve on Instagram" className='w-full lg:w-[49%] flex flex-col justify-start items-start rounded-[26px] bg-white py-5 px-5 gap-5'>
                     <div className='w-full flex flex-row justify-start items-center gap-2'>
 
-                        <img
-                            src="/images/instagram-heading.png"
+                        <img loading="lazy" decoding="async"
+                            src="/images/instagram-heading.webp"
                             className='w-[90px] lg:w-25'
                             alt=""
                         />
@@ -87,8 +87,8 @@ export default function SocialEdit() {
                             className='lg:w-[25px] lg:h-[25px]'
                         />
                     </div>
-                    <img
-                        src="/images/instagram.png"
+                    <img loading="lazy" decoding="async"
+                        src="/images/instagram.webp"
                         className='h-[420px] sm:h-[48vh] w-full rounded-[27px] object-cover'
                         alt=""
                     />
@@ -96,28 +96,28 @@ export default function SocialEdit() {
 
                         <div className='flex flex-row justify-start gap-4'>
 
-                            <img
-                                src="/images/instagram-liked.png"
+                            <img loading="lazy" decoding="async"
+                                src="/images/instagram-liked.webp"
                                 className='w-5 lg:w-6.5 object-contain'
                                 alt=""
                             />
 
-                            <img
-                                src="/images/instagram-comment.png"
+                            <img loading="lazy" decoding="async"
+                                src="/images/instagram-comment.webp"
                                 className='w-5 lg:w-6.5 object-contain'
                                 alt=""
                             />
 
-                            <img
-                                src="/images/instagram-share.png"
+                            <img loading="lazy" decoding="async"
+                                src="/images/instagram-share.webp"
                                 className='w-5 lg:w-6.5 object-contain'
                                 alt=""
                             />
                         </div>
 
                         <div>
-                            <img
-                                src="/images/instagram-save.png"
+                            <img loading="lazy" decoding="async"
+                                src="/images/instagram-save.webp"
                                 className='w-5 lg:w-6.5 object-contain'
                                 alt=""
                             />

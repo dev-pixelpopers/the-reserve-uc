@@ -6,7 +6,7 @@ export const servicesContent: ServicesContent = {
         title: 'Events Worth',
         subtitle: 'Remembering',
         lead: 'From grand celebrations to intimate gatherings, every event at The Reserve is crafted with intention and elegance.',
-        image: '/images/bg-banner.png',
+        image: '/images/bg-banner.webp',
         imageAlt: '',
         breadcrumbs: [
             { text: 'Home', href: '/' },
@@ -19,7 +19,7 @@ export const servicesContent: ServicesContent = {
             title: 'Weddings & Receptions',
             description:
                 'Where timeless romance meets effortless luxury. Each moment thoughtfully curated, beautifully celebrated, and truly unforgettable.',
-            image: '/images/weddings-receptions.jpg',
+            image: '/images/weddings-receptions.webp',
             href: '/what-we-offer/weddings-and-receptions',
             ctaLabel: 'See the Wedding Experience',
         },
@@ -33,7 +33,7 @@ export const servicesContent: ServicesContent = {
                     "From product launches and executive retreats to corporate dinners and gala celebrations, The Reserve becomes an extension of your brand and providing a distinctive setting where your vision takes center stage.",
                     "Our flexible spaces can be tailored to complement your event, whether you're hosting an intimate executive gathering or a sophisticated large-scale celebration."
                 ],
-            image: '/images/corporate-events.png',
+            image: '/images/corporate-events.webp',
             href: '/what-we-offer/corporate-events',
             ctaLabel: 'Explore Corporate & Brand',
         },
@@ -42,7 +42,7 @@ export const servicesContent: ServicesContent = {
             title: 'Special Occasions',
             description: "Mark life's greatest moments in a venue that matches their significance.",
             longText: ['Birthdays, anniversaries, graduations — moments that deserve more than ordinary. Our spaces transform to match your milestone.'],
-            image: '/images/special-occasions.png',
+            image: '/images/special-occasions.webp',
             href: '/what-we-offer/birthdays',
             ctaLabel: 'Plan a Milestone',
         },

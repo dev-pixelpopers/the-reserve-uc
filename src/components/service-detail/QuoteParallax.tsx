@@ -52,7 +52,7 @@ export default function QuoteParallax({
     return (
         <div ref={quoteScope} className={`relative w-full ${heightClass} overflow-hidden bg-black`}>
             <div className="quote-bg absolute inset-0 scale-110">
-                <img src={image} alt="" className="w-full h-full object-cover opacity-40" />
+                <img loading="lazy" decoding="async" src={image} alt="" className="w-full h-full object-cover opacity-40" />
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-black/70" />
 

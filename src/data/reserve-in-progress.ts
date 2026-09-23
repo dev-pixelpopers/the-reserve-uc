@@ -16,7 +16,7 @@ export const reserveInProgressContent: ReserveInProgressContent = {
         title: 'The Reserve',
         subtitle: 'in Progress',
         lead: 'From construction milestones to architectural achievements, every update showcases the progress shaping The Reserve.',
-        image: '/images/bg-banner.png',
+        image: '/images/bg-banner.webp',
         imageAlt: '',
         breadcrumbs: [
             { text: 'Home', href: '/' },

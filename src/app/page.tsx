@@ -1,4 +1,3 @@
-"use client";
 import HeroBanner from "@/components/HeroBanner";
 import WhatWeOffer from "@/components/WhatWeOffer";
 import Services from "@/components/Services";

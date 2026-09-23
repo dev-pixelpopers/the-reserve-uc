@@ -57,9 +57,9 @@ export default function HeroBanner() {
             </div>
             <div className="flex  overflow-hidden gap-2 sm:gap-3 md:gap-4 lg:gap-8 flex-1 min-h-0 justify-center">
                 <div className="w-[100%] lg:w-[58%] h-[70%] md:h-[380px] lg:h-full overflow-hidden flex-shrink-0 lg:flex-shrink">
-                    <img
+                    <img decoding="async"
                         ref={imgRef}
-                        src="/images/bg-banner.png"
+                        src="/images/bg-banner.webp"
                         alt="The Reserve luxury venue"
                         className="w-full h-full object-cover object-top block"
                         style={{

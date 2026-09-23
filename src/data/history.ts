@@ -5,7 +5,8 @@ export const historyContent: HistoryContent = {
     hero: {
         eyebrow: 'History of The Reserve',
         title: 'One Hundred Years',
-        image: '/images/where-it-all-started.png',
+        lead: "The Reserve’s story is rooted in a passion for bringing people together and creating meaningful experiences. What began as a vision has grown into a destination where every celebration is thoughtfully designed and beautifully remembered.",
+        image: '/images/where-it-all-started-png.webp',
         imageAlt: 'The Reserve building facade, circa 1923',
         breadcrumbs: [
             { text: 'Home', href: '/' },

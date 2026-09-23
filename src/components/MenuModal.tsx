@@ -49,7 +49,7 @@ export default function FullScreenModal({ Popupopen = false, onClose }: Props) {
 			style={{ transform: "translateY(-100%)" }}
 		>
 			<div className="absolute inset-0">
-				<img src="/images/menu-bg.png" alt="" className="h-full w-full object-cover" />
+				<img loading="lazy" decoding="async" src="/images/menu-bg.webp" alt="" className="h-full w-full object-cover" />
 			</div>
 			<div
 				className="relative flex h-full w-full flex-col items-center justify-start gap-[50px] overflow-y-auto 2xl:px-[175px] xl:px-[130px] lg:px-[100px] pt-[30px] text-white max-lg:gap-[6%] max-lg:px-[4%] max-lg:pb-[6%] max-lg:pt-[5%]"
@@ -62,15 +62,15 @@ export default function FullScreenModal({ Popupopen = false, onClose }: Props) {
 							className="flex cursor-pointer flex-row items-center justify-center gap-1 2xl:pb-[100%]"
 							onClick={onClose}
 						>
-							<img src="/images/cross.png" alt="" className="h-[15px] w-[15px]" />
+							<img loading="lazy" decoding="async" src="/images/cross.webp" alt="" className="h-[15px] w-[15px]" />
 							<span className="font-seasons text-[20px] leading-5 font-normal text-black max-lg:text-[clamp(0.875rem,0.5rem+1vw,1.25rem)] max-lg:leading-[1.25]">
 								CLOSE
 							</span>
 						</button>
 					</div>
 					<div className="max-lg:flex max-lg:w-full max-lg:justify-center lg:flex lg:flex-1 lg:justify-center">
-						<img
-							src="/images/Reserve-logo.png"
+						<img loading="lazy" decoding="async"
+							src="/images/Reserve-logo.webp"
 							alt=""
 							className="h-[clamp(150px,11.71vw,225px)] w-[clamp(200px,16.04vw,308px)] object-contain max-lg:h-auto max-lg:w-[min(70%,220px)]"
 						/>

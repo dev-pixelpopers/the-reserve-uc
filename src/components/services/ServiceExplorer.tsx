@@ -70,7 +70,7 @@ export default function ServiceExplorer({ services }: ServiceExplorerProps) {
                             className="absolute inset-0"
                             style={{ opacity: i === 0 ? 1 : 0 }}
                         >
-                            <img
+                            <img loading="lazy" decoding="async"
                                 src={service.image}
                                 alt={service.title}
                                 className="w-full h-full object-cover grayscale"
@@ -88,7 +88,7 @@ export default function ServiceExplorer({ services }: ServiceExplorerProps) {
                             className="min-h-auto lg:min-h-[80vh] flex flex-col justify-center gap-[24px] lg:gap-[30px] py-[50px] lg:py-[60px]"
                         >
                             <div className="block lg:hidden w-full overflow-hidden rounded-[20px] mb-[10px]">
-                                <img src={service.image} alt={service.title} className="w-full h-auto object-cover" />
+                                <img loading="lazy" decoding="async" src={service.image} alt={service.title} className="w-full h-auto object-cover" />
                             </div>
 
                             <span className="font-midland text-[clamp(60px,10vw,100px)] leading-[1] text-cream/15">

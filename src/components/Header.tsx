@@ -5,6 +5,12 @@ import Link from "next/link";
 
 function Header() {
     const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
+    const [hasOpenedMenu, setHasOpenedMenu] = useState<boolean>(false);
+
+    const openMenu = () => {
+        setHasOpenedMenu(true);
+        setIsModalOpen(true);
+    };
 
     return (
         <>
@@ -15,7 +21,7 @@ function Header() {
                             <button
                                 type="button"
                                 className="flex cursor-pointer items-center gap-2 lg:gap-1"
-                                onClick={() => setIsModalOpen(true)}
+                                onClick={openMenu}
                                 aria-label="Open menu"
                             >
                                 <svg
@@ -41,8 +47,12 @@ function Header() {
                         href="/"
                     >
                         <img
-                            src="/images/logo-new.png"
+                            src="/images/logo-new.webp"
                             alt="The Reserve"
+                            width={510}
+                            height={417}
+                            fetchPriority="high"
+                            decoding="async"
                             className="object-contain w-[110px] h-[70px]  lg:h-[150px] lg:w-[253px]"
                         />
                     </Link>
@@ -59,7 +69,9 @@ function Header() {
                     </div>
                 </div>
             </header>
-            <FullScreenModal Popupopen={isModalOpen} onClose={() => setIsModalOpen(false)} />
+            {hasOpenedMenu && (
+                <FullScreenModal Popupopen={isModalOpen} onClose={() => setIsModalOpen(false)} />
+            )}
         </>
     );
 }

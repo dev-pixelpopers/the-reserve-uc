@@ -35,7 +35,7 @@ export default function PackagesHero({
                     <h1 className="font-midland text-[clamp(28px,5vw,60px)] leading-[1.4] lg:leading-[100px] capitalize whitespace-nowrap text-[#FAF1E1]">
                         {titleTop}
                     </h1>
-                    <img
+                    <img decoding="async"
                         src={accentTop}
                         className="rotate-[13.938deg] rounded-[16px] lg:rounded-[32px] h-[70px] lg:h-[140px]"
                         alt=""
@@ -43,7 +43,7 @@ export default function PackagesHero({
                 </div>
 
                 <div ref={heroTextRightRef} className="flex flex-row justify-end items-center gap-5 lg:gap-10">
-                    <img
+                    <img decoding="async"
                         src={accentBottom}
                         className="-rotate-[13.938deg] rounded-[16px] lg:rounded-[32px] h-[70px] lg:h-[140px]"
                         alt=""

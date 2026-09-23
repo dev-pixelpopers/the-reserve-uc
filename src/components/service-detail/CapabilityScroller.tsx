@@ -79,7 +79,7 @@ export default function CapabilityScroller({ eyebrow, heading, scrollCue, items 
                         key={item.title}
                         className="w-[280px] md:w-[420px] lg:w-[520px] h-[clamp(380px,28vw,620px)] flex-shrink-0 relative rounded-[6px] overflow-hidden group"
                     >
-                        <img src={item.image} alt={item.title} className="absolute inset-0 w-full h-full object-cover" />
+                        <img loading="lazy" decoding="async" src={item.image} alt={item.title} className="absolute inset-0 w-full h-full object-cover" />
                         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-black/10" />
 
                         <div className="relative z-10 h-full flex flex-col justify-between p-[24px] md:p-[32px] lg:p-[40px]">

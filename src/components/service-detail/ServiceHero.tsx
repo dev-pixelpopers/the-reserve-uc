@@ -55,7 +55,7 @@ export default function ServiceHero({
             ref={scope}
             className="relative w-full h-screen flex flex-col justify-end pb-[5.1%] overflow-hidden bg-[#0e1111]"
         >
-            <img
+            <img decoding="async"
                 ref={imgRef}
                 src={meta.heroImage}
                 alt={meta.title}

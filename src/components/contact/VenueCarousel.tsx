@@ -25,7 +25,7 @@ export default function VenueCarousel({ images, intervalMs = 4000 }: VenueCarous
                     className="absolute inset-0 transition-opacity duration-[1500ms] ease-in-out"
                     style={{ opacity: i === activeImage ? 1 : 0 }}
                 >
-                    <img src={image.src} alt={image.alt} className="w-full h-full object-cover" />
+                    <img loading="lazy" decoding="async" src={image.src} alt={image.alt} className="w-full h-full object-cover" />
                 </div>
             ))}
             <div className="absolute inset-0 bg-gradient-to-r from-transparent to-[#202020]" />
