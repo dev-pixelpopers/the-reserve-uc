@@ -6,9 +6,9 @@ import HistoryTimeline from "@/components/about/HistoryTimeline";
 import { aboutContent } from "@/data/about";
 
 export const metadata: Metadata = {
-    title: "About The Reserve",
+    title: "About Our Historic Event Venue | The Reserve",
     description:
-        "A historic 1925 landmark in Old Alvarado, restored and reimagined as an elegant event venue where history meets modern elegance.",
+        "Discover how The Reserve transformed a historic Union City landmark into an elegant event venue, preserving its original character and adding modern amenities.",
     alternates: {
         canonical: "/about-the-reserve",
     },

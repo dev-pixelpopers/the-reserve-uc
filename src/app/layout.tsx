@@ -7,11 +7,10 @@ import { siteUrl } from "@/lib/site";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "The Reserve",
+    default: "Luxury Event Venue in Union City, CA | The Reserve",
     template: "%s | The Reserve",
   },
-  description:
-    "A historic 1925 landmark in Old Alvarado, restored as an elegant event venue for weddings, corporate events and private celebrations.",
+  description: "Host weddings, corporate events and special occasions at The Reserve, a restored historic venue in Union City, CA. Explore the space and plan your event.",
   alternates: {
     canonical: "/",
   },

@@ -5,9 +5,8 @@ import LeadershipSection from "@/components/founders/LeadershipSection";
 import { foundersContent } from "@/data/meet-the-founders";
 
 export const metadata: Metadata = {
-    title: "Meet The Founders",
-    description:
-        "Moh and Farah Jaan — the family-led leadership behind The Reserve, uniting architectural discipline with financial stewardship.",
+    title: "Meet Moh and Farah Jaan | The Reserve Founders",
+    description: "Meet Moh and Farah Jaan, the founders behind The Reserve in Union City. Learn about their vision for restoring a historic landmark and hosting memorable events.",
     alternates: {
         canonical: "/meet-the-founders",
     },

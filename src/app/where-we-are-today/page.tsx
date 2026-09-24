@@ -5,9 +5,8 @@ import ClosingCTA from "@/components/shared/ClosingCTA";
 import { whereWeAreTodayContent } from "@/data/where-we-are-today";
 
 export const metadata: Metadata = {
-    title: "Where We Are Today",
-    description:
-        "The restoration is complete and the doors are open. The Reserve today, honoring a century of history while writing its next chapter.",
+    title: "The Reserve Today | Historic Venue in Union City",
+    description: "See how a century-old Union City landmark has been restored and reopened as The Reserve, a venue for weddings, celebrations and corporate events.",
     alternates: {
         canonical: "/where-we-are-today",
     },

@@ -7,9 +7,8 @@ import ParallaxSection from "@/components/shared/ParallaxSection";
 import { contactContent } from "@/data/contact";
 
 export const metadata: Metadata = {
-    title: "Contact Us",
-    description:
-        "Tell us about your vision. Share your event details and the team at The Reserve will craft something extraordinary with you.",
+    title: "Contact & Event Inquiries | The Reserve Union City",
+    description: "Planning a wedding, corporate event or special occasion in Union City, CA? Contact The Reserve to share your vision or schedule a private tour.",
     alternates: {
         canonical: "/contact-us",
     },

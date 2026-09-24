@@ -4,9 +4,8 @@ import EpisodeGrid from "@/components/reserve-in-progress/EpisodeGrid";
 import { reserveInProgressContent } from "@/data/reserve-in-progress";
 
 export const metadata: Metadata = {
-    title: "The Reserve in Progress",
-    description:
-        "From construction milestones to architectural achievements, follow the restoration of The Reserve episode by episode.",
+    title: "The Reserve in Progress | Restoration Video Series",
+    description: "Follow The Reserve’s restoration through a video series documenting construction milestones and architectural progress at its historic Union City venue.",
     alternates: {
         canonical: "/the-reserve-in-progress",
     },

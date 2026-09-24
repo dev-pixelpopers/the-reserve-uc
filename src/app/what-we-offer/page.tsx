@@ -5,9 +5,8 @@ import ServicesCTA from "@/components/services/ServicesCTA";
 import { servicesContent } from "@/data/what-we-offer";
 
 export const metadata: Metadata = {
-    title: "What We Offer",
-    description:
-        "Weddings and receptions, corporate events, and special occasions — every event at The Reserve is crafted with intention and elegance.",
+    title: "Weddings & Corporate Events in Union City | The Reserve",
+    description: "Explore The Reserve for weddings, corporate events and milestone celebrations in Union City, CA. Discover flexible spaces and inquire about your event.",
     alternates: {
         canonical: "/what-we-offer",
     },
